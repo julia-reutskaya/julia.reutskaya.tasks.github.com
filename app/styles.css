@@ -66,6 +66,15 @@ body {
     padding: 30px;
 }
 
-#content div {
-    height: 220px;
+#tabs .active a{
+    background: #9F11FA;
+    background:    -moz-linear-gradient(220deg, transparent 10px, #9F11FA 10px);
+    background:    -webkit-linear-gradient(220deg, transparent 10px, #9F11FA 10px);
+    background:     -ms-linear-gradient(220deg, transparent 10px, #9F11FA 10px);
+    background:      -o-linear-gradient(220deg, transparent 10px, #9F11FA 10px);
+    background:         linear-gradient(220deg, transparent 10px, #9F11FA 10px);
+}
+
+#content .active {
+    display: block;
 }
