@@ -3,9 +3,9 @@
  */
 var arr = [66, 87, null, 105, "mama", 30, 25, "mula", 0, 125];
 
-console.log(sumArr(arr));
+sumOnly100Plus(arr);
 
-function sumArr (arr) {
+function sumOnly100Plus (arr) {
 
     var result = 0;
 
