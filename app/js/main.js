@@ -12,7 +12,7 @@ $(function(){
 
     function loadProjectStructure () {
 
-        var url = "./app/structure.json";
+        var url = "structure.json";
 
         $.ajax({
             url: url,
@@ -42,7 +42,7 @@ $(function(){
 
     function loadTaskContent(name) {
 
-        var url = "./app/tasks/" + name + "/index.html";
+        var url = "tasks/" + name + "/index.html";
 
         $.ajax({
             url: url,
